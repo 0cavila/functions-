@@ -9,21 +9,22 @@
 
 // (1) First Task
 // Declare a function named double() which outputs a number double the input number.
-function double (a) {
-    let total = a * 2
-    let a = 6 
+function double(a) {
+    let total =  (a * 2)
+    return total 
 }
+
 
 
 
 // (2) Second Task
 // Declare a function named plusplus() which outputs a number one higher than the input number.
-
-
-function plusplus (b) {
-    let total = b + 1 
-        return total 
+function plusplus(b) {
+    let total = (b +1)
+    return total
 }
+
+
 
 
 
@@ -31,7 +32,8 @@ function plusplus (b) {
 
 // (3) Third Task
 // Declare a function named oppRecip() which outputs the opposite reciprocal of the input number.
-
+function oppRecip(c)
+    let total 
 
 
 
@@ -109,7 +111,8 @@ function plusplus (b) {
 // (10) Tenth Task
 // Declare a function named xor() which has two inputs a and b.
 // This function returns the exclusive or of the two boolean inputs.
-
+function xor (a,b) 
+return ( a || b ) && !( a && b );
 
 
 
