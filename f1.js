@@ -20,7 +20,7 @@ function double(a) {
 // (2) Second Task
 // Declare a function named plusplus() which outputs a number one higher than the input number.
 function plusplus(b) {
-    let total = (b +1)
+    let total = (b + 1 )
     return total
 }
 
@@ -43,8 +43,11 @@ function oppRecip(c)
 // (4) Fourth Task
 // Declare a function named pthagorean() which has two inputs you guessed it a and b.
 // The function outputs the value of the third side of the right triangle.
-
-
+function pthagorean (a,b) }
+    let total = a*a + b*b 
+    return Math.sqrt (c) 
+}
+ 
 
 
 
@@ -53,6 +56,10 @@ function oppRecip(c)
 // (5) Fifth Task
 // Declare a function named circleArea() which has one input named radius.
 // The function outputs the area of the circle.
+function circleArea (radius) {
+    let total = 2 * radius * Math.PI
+    return total 
+}
 
 
 
@@ -120,6 +127,6 @@ return ( a || b ) && !( a && b );
 
 
 
-
+S
 
 /**************************** END OF FILE *******************************/
